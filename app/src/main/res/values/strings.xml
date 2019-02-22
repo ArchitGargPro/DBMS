@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="view">Welcome to Database of AIACTR</string>
+    <string-array name="streams">
+        <item>CSE</item>
+        <item>ECE</item>
+      <!--  <item>ECE2</item>       !-->
+    </string-array>
+    <string name="choose">Choose Stream</string>
+    <string name="go">GO</string>
+    <string name="vieWdb">View Database</string>
+    <string name="add">Add new Entries</string>
+    <string name="delete">Delete Entries</string>
+    <string name="exit">EXIT</string>
+    <string name="description2">STREAM IMAGE</string>
+    <string name="description">College Front Image</string>
+    <string name="db">View Complete Database</string>
+    <string name="title_activity_viewing">Viewing</string>
+    <string name="per">Aggregate Percentage</string>
+    <string name="hnt">1/2/3/4</string>
+    <string name="action_settings">Settings</string>
+    <string name="mosc">Member of Student Council</string>
+    <string name="save">SAVE</string>
+    <string name="edit">Edit Values</string>
+    <string name="nc">NSS Coordinator</string>
+    <string name="dob">Date Of Birth (yyyy-mm-dd)</string>
+    <string name="pn">Phone Number</string>
+    <string name="en">Enrollment Number</string>
+    <string name="ad">Address</string>
+    <string name="fn">Full Name</string>
+    <string name="about">This app implements basic CRUD operations in SQLite</string>
+</resources>

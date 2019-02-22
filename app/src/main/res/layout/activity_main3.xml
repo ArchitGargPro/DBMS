@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.archit.myapplication.Main3Activity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Head">
+
+        <Button
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:background="@android:drawable/checkbox_off_background"
+            android:onClick="view"
+            android:shadowColor="#0000ff"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="5"
+            android:text="@string/vieWdb"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:background="@android:drawable/checkbox_off_background"
+            android:onClick="add"
+            android:shadowColor="#00ff00"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="5"
+            android:text="@string/add"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/del"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:background="@android:drawable/checkbox_off_background"
+            android:onClick="del"
+            android:shadowColor="#ffff00"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="5"
+            android:text="@string/delete"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/editButton"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:background="@android:drawable/checkbox_off_background"
+            android:onClick="edit"
+            android:shadowColor="@android:color/holo_orange_dark"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="5"
+            android:text="@string/edit"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:background="@android:drawable/checkbox_off_background"
+            android:onClick="Exit"
+            android:shadowColor="#ff0000"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="5"
+            android:text="@string/exit"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
